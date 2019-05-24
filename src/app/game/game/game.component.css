@@ -1,0 +1,35 @@
+
+.actions {
+    padding: 10px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: center;
+}
+
+.actions .btn {
+    margin: 0 5px;
+}
+
+.btn {
+    background: #387EF5;
+    border: solid 1px #387EF5;
+    border-radius: 7px;
+    color: white;
+    cursor: pointer;
+    font-size: 0.8em;
+    outline: none;
+    padding: 10px 50px;
+    -webkit-transition: 300ms all;
+    transition: 300ms all;
+}
+
+.btn:hover{
+    opacity: 0.9;
+}
+
+.btn.disabled {
+    opacity: 0.5;
+}

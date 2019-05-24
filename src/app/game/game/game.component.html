@@ -1,0 +1,6 @@
+<app-header></app-header>
+<app-board></app-board>
+<app-footer></app-footer>
+<div class="actions">
+	<button class="btn reset" [class.disabled]="!running && (_state$ | async).n_moves == 0" (click)="_handleResetClick()">Reset</button>
+</div>
